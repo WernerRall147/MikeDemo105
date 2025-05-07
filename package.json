@@ -1,0 +1,31 @@
+{
+  "name": "surf-predictions-aminus",
+  "version": "1.0.0",
+  "description": "Surf predictions for A'Minus in Western Cape",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["surf", "predictions", "western-cape", "aminus"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^19.1.3",
+    "@types/react-dom": "^19.1.3",
+    "@vitejs/plugin-react-swc": "^3.9.0",
+    "axios": "^1.9.0",
+    "chart.js": "^4.4.9",
+    "react": "^19.1.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.1.0",
+    "vite": "^6.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.14",
+    "eslint": "^9.26.0",
+    "typescript": "^5.8.3"
+  }
+}

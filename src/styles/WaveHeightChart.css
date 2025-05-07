@@ -1,0 +1,19 @@
+.wave-chart-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  height: 400px;
+}
+
+.wave-chart {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .wave-chart-container {
+    height: 300px;
+    padding: 1rem;
+  }
+}
