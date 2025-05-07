@@ -37,16 +37,15 @@ export const fetchSurfData = async (): Promise<SurfForecast> => {
       dominantSwellDirection: ["SW", "SSW", "S", "SSE"][Math.floor(Math.random() * 4)],
       windSpeed: 10 + Math.random() * 15,
       windDirection: ["SE", "S", "SW", "E"][Math.floor(Math.random() * 4)],
-      temperature: 18 + Math.random() * 8,
-      surfQuality: ["Poor", "Fair", "Good", "Excellent"][Math.floor(Math.random() * 4)],
+      temperature: 18 + Math.random() * 8,      surfQuality: ["Poor", "Fair", "Good", "Excellent"][Math.floor(Math.random() * 4)],
       tide: {
         high: [
-          \`\${(6 + Math.floor(Math.random() * 2)).toString().padStart(2, '0')}:\${(Math.floor(Math.random() * 60)).toString().padStart(2, '0')}\`,
-          \`\${(18 + Math.floor(Math.random() * 2)).toString().padStart(2, '0')}:\${(Math.floor(Math.random() * 60)).toString().padStart(2, '0')}\`
+          `${(6 + Math.floor(Math.random() * 2)).toString().padStart(2, '0')}:${(Math.floor(Math.random() * 60)).toString().padStart(2, '0')}`,
+          `${(18 + Math.floor(Math.random() * 2)).toString().padStart(2, '0')}:${(Math.floor(Math.random() * 60)).toString().padStart(2, '0')}`
         ],
         low: [
-          \`\${(12 + Math.floor(Math.random() * 2)).toString().padStart(2, '0')}:\${(Math.floor(Math.random() * 60)).toString().padStart(2, '0')}\`,
-          \`\${(0 + Math.floor(Math.random() * 2)).toString().padStart(2, '0')}:\${(Math.floor(Math.random() * 60)).toString().padStart(2, '0')}\`
+          `${(12 + Math.floor(Math.random() * 2)).toString().padStart(2, '0')}:${(Math.floor(Math.random() * 60)).toString().padStart(2, '0')}`,
+          `${(0 + Math.floor(Math.random() * 2)).toString().padStart(2, '0')}:${(Math.floor(Math.random() * 60)).toString().padStart(2, '0')}`
         ]
       },
       sunriseTime: "06:15",
